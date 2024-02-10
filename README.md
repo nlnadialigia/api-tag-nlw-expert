@@ -28,6 +28,10 @@
 
 ## 📎 Passo a passo
 
+- Aula 01: Criação do código de barras
+- Aula 02: Separação das responsabilidades
+- Aula 03: Tratativas de erros e testes unitários
+
 <br>
 
 ## 🚀 Como executar o projeto
@@ -41,7 +45,7 @@ $ git clone git@github.com:nlnadialigia/api-tag-nlw-expert.git
 $ cd api-tag-nlw-expert
 
 # Instalar as dependências
-$ pip install -r requirements.txt --upgrade
+$ pip install -r requirements.txt
 
 # Rodar o pre-commit
 $ pre-commit install
@@ -62,8 +66,6 @@ $ python3 app.py
 - [Python](https://www.python.org)
 - [Pylint](https://pypi.org/project/pylint/)
 - [Flask](https://flask.palletsprojects.com/en/3.0.x/)
-<!-- - [Flask SQL Alchemy](https://flask-sqlalchemy.palletsprojects.com/en/3.1.x/)
-- [Flask Login](https://flask-login.readthedocs.io/en/latest/) -->
 
 #### 🎲 Documentação
 
