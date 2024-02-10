@@ -53,6 +53,8 @@ $ pre-commit install
 # Execute a aplicação em modo de desenvolvimento
 $ python3 app.py
 
+# Rodar os testes da aplicação
+$ pytest -s -v
 # O servidor inciará na porta:5000 - acesse http://127.0.0.1:5000
 
 ```
@@ -65,7 +67,9 @@ $ python3 app.py
 
 - [Python](https://www.python.org)
 - [Pylint](https://pypi.org/project/pylint/)
+- [Pytest](https://docs.pytest.org/en/8.0.x/getting-started.html)
 - [Flask](https://flask.palletsprojects.com/en/3.0.x/)
+- [Cerberus](https://docs.python-cerberus.org/errors.html)
 
 #### 🎲 Documentação
 

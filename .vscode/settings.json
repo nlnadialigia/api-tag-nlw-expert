@@ -2,6 +2,7 @@
   "editor.tabSize": 4,
   "files.exclude": {
     "**/__pycache__": true,
+    ".pytest_cache": true
   },
   "material-icon-theme.folders.associations": {
     "drivers": "Lib",
