@@ -17,7 +17,7 @@
     // "accounts": "Client",
     // "useCases": "Controller",
     // "seed": "Admin",
-    // "local": "Private",
+    "drivers": "Lib",
     "main": "Api"
   },
   // "material-icon-theme.files.associations": {
