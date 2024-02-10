@@ -1,9 +1,8 @@
 @baseURL=http://127.0.0.1:5000
 
-POST {{baseURL}}
+POST {{baseURL}}/create_tag
 content-type: application/json
 
 {
-    "name": "sample",
-    "time": "Wed, 21 Oct 2015 18:27:50 GMT"
+    "product_code": "123-456-789"
 }

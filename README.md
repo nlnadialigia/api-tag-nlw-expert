@@ -40,8 +40,11 @@ $ git clone git@github.com:nlnadialigia/api-tag-nlw-expert.git
 # Acesse a pasta do projeto no terminal/cmd
 $ cd api-tag-nlw-expert
 
-# Instale as dependências
+# Instalar as dependências
 $ pip install -r requirements.txt --upgrade
+
+# Rodar o pre-commit
+$ pre-commit install
 
 # Execute a aplicação em modo de desenvolvimento
 $ python3 app.py
