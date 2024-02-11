@@ -20,9 +20,9 @@
 
 ## 💻 Sobre o projeto
 
-<!-- API de autenticação com banco de dados desenvolvido em Python com Flask da Trilha de Python da [Rocketseat](https://www.rocketseat.com.br/). -->
+API de geração de código de barras desenvolvida na NLW Expert - Trilha Python, da [Rocketseat](https://www.rocketseat.com.br/).
 
-![Em construção](https://ik.imagekit.io/l7cwocexhc/crud-flask/em-contrucao.png?updatedAt=1706705289779)
+<!-- ![Em construção](https://ik.imagekit.io/l7cwocexhc/crud-flask/em-contrucao.png?updatedAt=1706705289779) -->
 
 <br>
 
@@ -31,6 +31,9 @@
 - Aula 01: Criação do código de barras
 - Aula 02: Separação das responsabilidades
 - Aula 03: Tratativas de erros e testes unitários
+  <br><br>
+
+> _A API está configurada para rodar o Pylint e o Pytest como pre-commit, ou seja, antes de fazer qualquer commit o sistema vai verificar se o código está dentro dos padrões e se todos os testes estão passando._
 
 <br>
 
@@ -53,9 +56,11 @@ $ pre-commit install
 # Execute a aplicação em modo de desenvolvimento
 $ python3 app.py
 
+# O servidor inciará na porta:5000 - acesse http://127.0.0.1:5000
+
 # Rodar os testes da aplicação
 $ pytest -s -v
-# O servidor inciará na porta:5000 - acesse http://127.0.0.1:5000
+
 
 ```
 
